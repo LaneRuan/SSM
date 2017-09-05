@@ -1,0 +1,8 @@
+CREATE SCHEMA `learning` ;
+CREATE TABLE `learning`.`t_user` (
+  `USER_ID` INT NOT NULL,
+  `USER_NAME` VARCHAR(45) NULL,
+  `USER_PASSWORD` VARCHAR(45) NULL,
+  PRIMARY KEY (`USER_ID`));
+  
+INSERT INTO learning.t_user (USER_ID, USER_NAME, USER_PASSWORD) VALUES (1, 'jiyang', '1234');
